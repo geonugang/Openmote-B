@@ -1,4 +1,4 @@
-build/openmote/openmote-b/obj/sensor-test2.o: sensor-test2.c \
+build/openmote/openmote-b/obj/gcm.o: ../../arch/cpu/cc2538/dev/gcm.c \
  ../../os/contiki.h ../../arch/platform/openmote/./contiki-conf.h \
  ../../arch/cpu/cc2538/./cc2538-def.h \
  ../../arch/cpu/cc2538/../arm/cortex-m/cm3/cm3-def.h \
@@ -21,13 +21,10 @@ build/openmote/openmote-b/obj/sensor-test2.o: sensor-test2.c \
  ../../os/sys/etimer.h ../../os/sys/rtimer.h ../../os/dev/watchdog.h \
  ../../arch/cpu/cc2538/./rtimer-arch.h \
  ../../arch/cpu/cc2538/./dev/gptimer.h ../../os/sys/pt.h \
- ../../os/sys/clock.h ../../arch/cpu/cc2538/./dev/i2c.h \
- ../../arch/cpu/cc2538/./dev/sys-ctrl.h \
- ../../arch/cpu/cc2538/./dev/gpio.h ../../arch/cpu/cc2538/./dev/ioc.h \
- ../../os/sys/clock.h ../../os/lib/sensors.h \
- ../../arch/dev/sensor/bme280/bme280-arch.h \
- ../../arch/dev/sensor/bme280/bme280.h \
- ../../arch/dev/sensor/bme280/bme280-sensor.h
+ ../../os/sys/clock.h ../../arch/cpu/cc2538/./dev/rom-util.h \
+ ../../arch/cpu/cc2538/./dev/gcm.h ../../arch/cpu/cc2538/./dev/aes.h \
+ ../../arch/cpu/cc2538/./dev/crypto.h \
+ ../../arch/cpu/cc2538/./dev/sys-ctrl.h
 ../../os/contiki.h:
 ../../arch/platform/openmote/./contiki-conf.h:
 ../../arch/cpu/cc2538/./cc2538-def.h:
@@ -66,12 +63,8 @@ build/openmote/openmote-b/obj/sensor-test2.o: sensor-test2.c \
 ../../arch/cpu/cc2538/./dev/gptimer.h:
 ../../os/sys/pt.h:
 ../../os/sys/clock.h:
-../../arch/cpu/cc2538/./dev/i2c.h:
+../../arch/cpu/cc2538/./dev/rom-util.h:
+../../arch/cpu/cc2538/./dev/gcm.h:
+../../arch/cpu/cc2538/./dev/aes.h:
+../../arch/cpu/cc2538/./dev/crypto.h:
 ../../arch/cpu/cc2538/./dev/sys-ctrl.h:
-../../arch/cpu/cc2538/./dev/gpio.h:
-../../arch/cpu/cc2538/./dev/ioc.h:
-../../os/sys/clock.h:
-../../os/lib/sensors.h:
-../../arch/dev/sensor/bme280/bme280-arch.h:
-../../arch/dev/sensor/bme280/bme280.h:
-../../arch/dev/sensor/bme280/bme280-sensor.h:

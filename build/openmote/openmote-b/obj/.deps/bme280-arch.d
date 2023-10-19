@@ -1,5 +1,5 @@
-build/openmote/openmote-b/obj/board.o: \
- ../../arch/platform/openmote/openmote-b/board.c ../../os/contiki.h \
+build/openmote/openmote-b/obj/bme280-arch.o: \
+ ../../arch/dev/sensor/bme280/bme280-arch.c ../../os/contiki.h \
  ../../arch/platform/openmote/./contiki-conf.h \
  ../../arch/cpu/cc2538/./cc2538-def.h \
  ../../arch/cpu/cc2538/../arm/cortex-m/cm3/cm3-def.h \
@@ -22,8 +22,10 @@ build/openmote/openmote-b/obj/board.o: \
  ../../os/sys/etimer.h ../../os/sys/rtimer.h ../../os/dev/watchdog.h \
  ../../arch/cpu/cc2538/./rtimer-arch.h \
  ../../arch/cpu/cc2538/./dev/gptimer.h ../../os/sys/pt.h \
- ../../os/sys/clock.h ../../arch/platform/openmote/./dev/antenna.h \
- ../../arch/cpu/cc2538/./dev/ioc.h
+ ../../os/sys/clock.h ../../arch/cpu/cc2538/./dev/i2c.h \
+ ../../arch/cpu/cc2538/./dev/sys-ctrl.h \
+ ../../arch/cpu/cc2538/./dev/gpio.h ../../arch/cpu/cc2538/./dev/ioc.h \
+ ../../os/sys/clock.h
 ../../os/contiki.h:
 ../../arch/platform/openmote/./contiki-conf.h:
 ../../arch/cpu/cc2538/./cc2538-def.h:
@@ -62,5 +64,8 @@ build/openmote/openmote-b/obj/board.o: \
 ../../arch/cpu/cc2538/./dev/gptimer.h:
 ../../os/sys/pt.h:
 ../../os/sys/clock.h:
-../../arch/platform/openmote/./dev/antenna.h:
+../../arch/cpu/cc2538/./dev/i2c.h:
+../../arch/cpu/cc2538/./dev/sys-ctrl.h:
+../../arch/cpu/cc2538/./dev/gpio.h:
 ../../arch/cpu/cc2538/./dev/ioc.h:
+../../os/sys/clock.h:

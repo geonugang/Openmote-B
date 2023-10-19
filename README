@@ -1,3 +1,10 @@
 I created a file to test the bme-280 sensor in openmote-b board by referring to the zoul bme-280 test file supported by contiki-ng. However, when attempting to compile, an error occured "No rule to make target 'sensor-test.upload'" 
 This is being resolved
 
+
+
+
+This is a phrase for flashing on the openmote-b board.
+-------------------------------------------------------------------------------
+sudo make TARGET=openmote BOARD=openmote-b PORT=/dev/ttyUSB3 sensor-test.upload
+-------------------------------------------------------------------------------
